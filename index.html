@@ -26,12 +26,13 @@
 	<div class="col-lg-4 col-lg-offset-4">
  <div class="input-group">
   <label for="usr">User Name:</label>
-  <input type="text" class="form-control" id="usr">
+  <input name="uname"  type="text" class="form-control" id="usr">
 
+<form name ="loginform" method="post" action="config.php">
 <div class="col-lg-4 col-lg-offset-4">
 <div class="form-group">
-  <label for="pwd">Password:</label>
-  <input type="password" class="form-control" id="pwd">
+  <label for="upwd">Password:</label>
+  <input name="upwd" type="password" class="form-control" >
 </div>
 </div>
 <div>
@@ -41,6 +42,7 @@
 </div>
 </div>
 </div>
+</form>
 <!-- test compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </body>
