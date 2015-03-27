@@ -1,10 +1,12 @@
 <html>
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.css">
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/bootstrap-theme.css">
 </head>
 <body>
+        <div>
         <nav class="navbar navbar-default">
         <div class="containter-fluid">
         <div class="navbar-header">
@@ -20,4 +22,27 @@
 </ul>
 </div>
 </div>
+</div>
+                        <div class="toolbar">
+                                        <div class="toolbar_search">
+                                                <form action="/search" id="cse-search-box">
+                                                        <input type="hidden" name="cx" value="004673356914326163298:bcgejkcchl4" />
+                                                        <input type="hidden" name="cof" value="FORID:9" />
+                                                        <input type="hidden" name="ie" value="UTF-8" />
+                                                        <input type="text" name="q" size="31" />
+                                                        <input type="submit" name="sa" value="Search" class="btn" />
+                                                </form>
+                                                <script type="text/javascript" src="//www.google.com/cse/brand?form=cse-search-box&lang=en"></script>
+                                        </div>
+                                </div>
+                                 <div class="table-responsive">
+  <table class="table">
+    <tr> <td> Ledger </td></tr>
+    <tr><td> Description</td><td> Date </td><td> Amount </td><td> Account </td></tr>
+    <tr><td> Test </td><td> 3/27/2015 </td><td> $500 </td><td> Checking </td></tr>
+  </table>
+</div> 
+
+<script type="text/javascript" src="cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.js"></script>
+</body>
 
